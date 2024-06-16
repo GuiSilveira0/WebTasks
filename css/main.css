@@ -1,0 +1,87 @@
+.bg-dark {
+    background-color: #3b3647 !important;
+    box-shadow: 0 0 1px 1px #5C5470;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.new_task {
+    color: #756b8d;
+    transition: 0.3s;
+}
+
+.new_task:hover {
+    color: #47aa3e;
+    cursor: pointer;
+}
+
+.card-body {
+    background-color: #3b3647;
+    border-color: #3b3647;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+}
+
+.card {
+    background-color: #3b3647;
+    border-color: #3b3647;
+}
+
+h5 { 
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+}
+
+.modal_content_custom {
+    background-color: #352F44;
+} 
+
+.text_color{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.text_input {
+    background-color: #3b3647;
+    color: white;
+    border-color: #3b3647;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    border-left: 2px solid rgb(173, 173, 173);
+    font-family: "Quicksand", sans-serif;
+}
+
+.text_input:focus {
+    outline: none;
+    box-shadow: none;
+    border-bottom-color: rgb(173, 173, 173);
+    border-left: rgb(173, 173, 173);
+    background-color: #474255;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.toast-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1055;
+}
